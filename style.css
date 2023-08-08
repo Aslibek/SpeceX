@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+span, a {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.A {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.box1 {
+    background-color: #010001;
+    padding: 30px 80px;
+    text-align: center;
+}
+.tepa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+.h1:hover {
+    transform: scale(1.07);
+}
+.aa {
+    color: silver;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.a:hover {
+    transform: scale(1.05);
+    color: lightgoldenrodyellow;
+}
+.aa:hover {
+    transform: scale(1.05);
+    color: lightgoldenrodyellow;
+}
+.op {
+    text-align: center;
+}
+.h2 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.h2:hover {
+    transform: scale(1.06);
+}
+.text {
+    color: silver;
+    line-height: 1.6;
+}
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010001;
+    padding: 30px 80px;
+}
+.chap {
+    width: 50%;
+}
+.ong {
+    width: 50%;
+}
+.P {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.h3 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.h3:hover {
+    transform: scale(1.03);
+}
+.tp {
+    margin-bottom: 135px;
+}
+.Un {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.CL {
+    color: silver;
+}
+.Un:hover {
+    transform: scale(1.03);
+}
+.d, .ad {
+    color: silver;
+    margin-bottom: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:860px) {
+    .box1 {
+        padding: 15px;
+    }
+}
+@media (max-width:700px) {
+    .links, .links2 {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .box1 {
+        padding: 10px;
+    }
+    .h {
+        margin: 0 auto;
+    }
+}
+@media (max-width:260px) {
+    .box1 {
+        padding: 8px;
+    }
+}
+@media (max-width:860px) {
+    .box2 {
+        padding: 15px;
+    }
+}
+@media (max-width:700px) {
+    .box2 {
+        padding: 10px;
+    }
+}
+@media (max-width:530px) {
+    .tp {
+        width: 100%;
+    }
+    .ps {
+        width: 100%;
+    }
+}
+@media (max-width:260px) {
+    .box2 {
+        margin: auto;
+        justify-content: center;
+        padding: 8px;
+    }
+    .ong {
+        width: 100%;
+    }
+}
